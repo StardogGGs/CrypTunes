@@ -7,5 +7,9 @@ Encrypted Music Library (set your own passwords to protect your songs from unaut
 # how to set up on my own? Virustotal doesn't like the exe.
 Refer to https://github.com/StardogGGs/CrypTunes/edit/main/requirements.md for more info
 
-# am i free to use modify this software
+# am i free to use modify this software?
 As long as you do not disturb me or my wellbeing, i am all for it.
+
+## how do i report bugs
+Contact the FBI and report the bugs so they will force me to fix them!
+<sub>(this is a joke)<sub/>
