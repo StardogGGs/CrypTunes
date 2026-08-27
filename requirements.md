@@ -24,21 +24,6 @@ pip install argon2-cffi cryptography pydub sounddevice numpy
 | `sounddevice` | `sounddevice` | Audio playback |
 | `numpy` | `numpy` | Audio sample processing |
 
-## Standard Library
-
-The following modules are used from Python's standard library and require no separate installation:
-
-- `io`
-- `os`
-- `json`
-- `re`
-- `shutil`
-- `struct`
-- `threading`
-- `hashlib`
-- `tkinter`
-- `pathlib`
-
 ## External Audio Backend
 
 `pydub` relies on an audio decoder/backend for formats such as MP3, FLAC, AAC, and M4A. On systems where these formats cannot be decoded directly, install **FFmpeg** and make sure it is available on the system `PATH`.
