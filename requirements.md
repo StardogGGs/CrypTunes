@@ -1,4 +1,4 @@
-# Vault Player Requirements
+# CrypTunes Requirements
 
 ## Runtime
 
@@ -34,13 +34,13 @@ To package the application as a Windows executable without opening a console win
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --windowed --name VaultPlayer main.py
+pyinstaller --onefile --windowed --name Cryptunes main.py
 ```
 
 The executable will be created at:
 
 ```text
-dist/VaultPlayer.exe
+dist/CrypTunes.exe
 ```
 
 ## Optional Icon
@@ -48,17 +48,9 @@ dist/VaultPlayer.exe
 To package with an `.ico` application icon:
 
 ```bash
-pyinstaller --onefile --windowed --icon=icon.ico --name VaultPlayer main.py
+pyinstaller --onefile --windowed --icon=icon.ico --name CrypTunes main.py
 ```
 
-## Application Data
-
-Vault Player creates and uses these files/directories in the user's profile:
-
-```text
-~/.vault_player/library.json
-~/Documents/.ead/passwords.ead
-```
 
 `passwords.ead` is stored as plaintext JSON for automatic password lookup. Anyone with access to the same user account/machine can read the stored passwords.
 
